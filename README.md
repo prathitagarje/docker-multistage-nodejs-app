@@ -1,6 +1,6 @@
 # Node.js Multistage Docker App
 ```
-git clone https://github.com/atulkamble/docker-multistage-nodejs-app.git
+git clone https://github.com/prathitagarje/docker-multistage-nodejs-app.git
 cd docker-multistage-nodejs-app
 
 # Download and install nvm:
@@ -27,12 +27,12 @@ http://instance-ip:3000
 
 ## Build
 ```bash
-docker build -t atuljkamble/multistage-docker-app .
+docker build -t prathitagarje/multistage-docker-app .
 ```
 
 ## Run
 ```bash
-docker run -d --name multistage-app -p 3000:3000 --init atuljkamble/multistage-docker-app
+docker run -d --name multistage-app -p 3000:3000 --init prathitagarje/multistage-docker-app
 ```
 
 ## Compose
