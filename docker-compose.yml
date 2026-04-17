@@ -1,9 +1,8 @@
-version: "3.10"
 services:
   app:
     build:
       context: .
-    image: atuljkamble/nodejs:latest
+    image: prathitagarje/nodejs:latest
     container_name: nodejsapp
     ports:
       - "3000:3000"
